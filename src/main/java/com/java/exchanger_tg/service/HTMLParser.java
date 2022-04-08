@@ -1,4 +1,4 @@
-package com.java.exchanger_tg.parser;
+package com.java.exchanger_tg.service;
 
 import java.util.List;
 

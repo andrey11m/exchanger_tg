@@ -1,4 +1,4 @@
-package com.java.exchanger_tg.heroku;
+package com.java.exchanger_tg.event;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

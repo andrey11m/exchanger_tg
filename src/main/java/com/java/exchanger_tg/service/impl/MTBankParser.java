@@ -1,6 +1,6 @@
-package com.java.exchanger_tg.parser;
+package com.java.exchanger_tg.service.impl;
 
-import com.java.exchanger_tg.parser.HTMLParser;
+import com.java.exchanger_tg.service.HTMLParser;
 import lombok.SneakyThrows;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
