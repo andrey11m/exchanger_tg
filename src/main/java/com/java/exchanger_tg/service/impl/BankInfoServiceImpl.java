@@ -22,7 +22,6 @@ public class BankInfoServiceImpl implements BankInfoService {
     @Scheduled(fixedRateString = "PT5M")
     private void updateBankInfo() {
         parsers.forEach(parser -> info.put(parser.getClass().getSimpleName(), parser.parse()));
-        log.info("working " + info.get(MTBankParser.class.getSimpleName()));
     }
 
     @Override
