@@ -16,7 +16,7 @@ public class PingMe {
     @SneakyThrows
     public void ping() {
         try {
-            URL url = new URL("https://exchanger-rates.herokuapp.com/");
+            URL url = new URL("https://exchanger-tg-bot.herokuapp.com/");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.connect();
             log.info("Server is working...  Ping {} status: {}", url.getHost(), connection.getResponseCode());
